@@ -21,7 +21,7 @@ const resolvedImageWithDomain = new URL(
 const { title } = Astro.props;
 
 const makeTitle = title
-  ? title + " | " + "Pickleball Social"
+  ? title + " | " + "Pickleball Club Social"
   : "Pickleball club branding and websites made easy";
 ---
 
@@ -36,7 +36,7 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="Pickleball club branding and websites, made easy"
+      description="Pickleball Club Social - Pickleball club branding and websites, made easy"
       canonical={canonicalURL}
       twitter={{
         creator: "@pickleballclubsocialuk",
@@ -47,7 +47,7 @@ const makeTitle = title
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Pickleball club branding and websites made easy`,
+          title: `Pickleball Club Social - branding and websites for your club, made easy`,
           image: resolvedImageWithDomain,
         },
         image: {
